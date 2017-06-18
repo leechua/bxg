@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>正在请求跨域</p>
+<script>
+    var xhr=new XMLHttpRequest();
+    xhr.open('post','http://api.botue.com/login');
+    xhr.setRequestHeader('Content-type','application/x-www-from-urlencoded');
+    xhr.send('tc_name=前端');
+    {
+        "code":200,
+        "msg":"登录成功！",
+        "result":{"tc_name":"前端学院","tc_avater":"http:\/\/static.bot.com\/images\/avater\/594510372f332.jpg"},
+        "time":1497756970
+    }
+</script>
+</body>
+</html>
